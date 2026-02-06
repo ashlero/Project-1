@@ -7,7 +7,7 @@ body {
     background-color:#1b2257 ;
     color: #efe8de;
     box-sizing: 100%;
-    padding: 5px;
+    padding: 0px;
     border-top: 3px solid;
     border-bottom: 3px solid;
     border-color: #aa1717;
@@ -16,4 +16,9 @@ body {
     font-family: "Fascinate", system-ui;
     font-weight: 400;
     font-style: normal;
+    font-size: 15px;
+}
+.London {
+    width: 100% ;
+    height: auto;
 }
