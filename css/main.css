@@ -1,1 +1,19 @@
 /* Place CSS styles here */
+body {
+    background-color: #efe8de;
+}
+
+.top-bar {
+    background-color:#1b2257 ;
+    color: #efe8de;
+    box-sizing: 100%;
+    padding: 5px;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #aa1717;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Fascinate", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
