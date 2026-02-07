@@ -21,32 +21,40 @@ body {
 .London {
     width: 100% ;
     height: auto;
-    border-radius: 24px;
 }
 
-.split {
+h2 {
+
+}
+.introduction {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 30px;
   align-items: center;
   max-width: 1100px;
   margin: 80px auto;
   padding: 0 40px;
 }
 
-.split-image img {
-  width: 20%;
-  height: auto;
-  display: block;
-}
-
 .split-text {
-    text-align: center;
+  text-align: center;
     padding-left: 20px;
-    padding-right: 20px;
+    padding-right: 10px;
     font-size: 25px;
     font-family: "Cal Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #aa1717;
+}
+
+.split-text2 {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    color: #1b2257;
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
 }
