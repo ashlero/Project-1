@@ -23,36 +23,214 @@ body {
     height: auto;
 }
 
-h2 {
-
+.intro {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1b2257;
 }
-.introduction {
+
+.line-style1 {
+  border: none;
+  height: 7px;
+  background-color: #1b2257;
+  margin: 24px auto;
+  border-radius: 999px;
+  width: 60%;
+}
+
+.line-style2 {
+    border: none;
+    height: 25px;
+    background-color: #aa1717;
+    margin: 10px 0;
+}
+
+.Hotels {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
+  gap: 20px;
   align-items: center;
   max-width: 1100px;
-  margin: 80px auto;
-  padding: 0 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.split-image img {
+  width: 100%;
+  height: auto
 }
 
 .split-text {
-  text-align: center;
+    align-items: center;
+}
+.Stay-head {
+    text-align: center;
     padding-left: 20px;
-    padding-right: 10px;
-    font-size: 25px;
+    padding-right: 20px;
+    font-size: 40px;
+    color: #1b2257;
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+}
+
+.stay-list {
+    text-align: left;
+    font-size: 20px ;
     font-family: "Cal Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #aa1717;
 }
 
-.split-text2 {
+
+.hotel-photos {
+    max-width: 100%;
+    height: auto;
+}
+
+.Dining {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dine-head {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    font-size: 25px;
+    font-size: 40px;
     color: #1b2257;
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+}
+
+.dine-list {
+    text-align: left;
+    font-size: 20px ;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #aa1717;
+}
+
+.diner-photos {
+    max-width: 100%;
+    height: auto;
+}
+
+.Attractions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.attractions-head {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+    color: #1b2257;
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: italic;
+}
+
+.attractions-list {
+    text-align: left;
+    font-size: 20px ;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #aa1717;
+}
+
+.attractions-photos {
+    max-width: 100%;
+    height: auto;
+}
+
+.Picks-Visit {
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto; 
+  gap: 40px;
+}
+
+.Top-Picks {
+    border: solid #1b2257;
+    background-color: #aa1717;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #efe8de;
+    border-radius: 70px;
+    padding: 6px 70px;
+    margin: 3px 0;
+    text-align: center;
+    display: table;
+}
+
+.picks-numbered {
+    text-align: left;
+    font-size: 20px ;
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #aa1717;
+}
+
+.Visit {
+    border: solid #1b2257;
+    background-color: #aa1717;
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #efe8de;
+    border-radius: 70px;
+    padding: 6px 70px;
+    margin: 3px 0;
+    text-align: center;
+    display: table; 
+}
+
+.Link {
+    text-align: left;
+    font-size: 20px ;
+    font-family: "Libre Baskerville", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #aa1717;
+}
+
+.london-link {
+    color: #1b2257;
+     text-align: left;
+    font-size: 20px ;
     font-family: "Libre Baskerville", serif;
     font-optical-sizing: auto;
     font-weight: weight;
